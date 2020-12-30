@@ -1,26 +1,47 @@
 .row-header{
     margin: 0px auto;
     padding: 0px auto;
+    background: #f4f4f4;
+    color: #1a1c20;
+    font-family: 'Poppins', sans-serif;
 }
 .row-content{
-    margin: 0px auto;
-    padding: 50px 0px 50px 0px;
+    margin: 10px auto;
+    padding: 20px 0px 20px 0px;
     border-bottom: 1px ridge;
-    min-height: 400px;
+    min-height: 50px;
+    color: #cf7500;
+    background: #1a1c20;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+    font-size: 20px;
 }
-.footer{
-    background-color: #e27d60;
+footer{
+    background-color: #1a1c20;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
+    color: #f0a500;
+    font-family: 'Mukta', sans-serif;
 }
 .jumbotron{
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: #e8a87c;
-    color: #242582;
+    background: #cf7500;
 }
-address{
-    font-size: 80%;
-    margin: 0px;
-    color: #553d67;
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+.navbar-dark{
+    background: #1a1c20 ;
+}
+#more1,#more2,#more3,#more4 {
+    display: none;
+}
+.col-heading{
+    background-color: #f0a500;
+    color:#f4f4f4;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Hind', sans-serif;
+    text-align: left;
 }
