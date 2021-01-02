@@ -1,20 +1,20 @@
-[debug] [2021-01-02T16:00:49.603Z] ----------------------------------------------------------------------
-[debug] [2021-01-02T16:00:49.607Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\s\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
-[debug] [2021-01-02T16:00:49.608Z] CLI Version:   9.1.0
-[debug] [2021-01-02T16:00:49.608Z] Platform:      win32
-[debug] [2021-01-02T16:00:49.608Z] Node Version:  v12.19.0
-[debug] [2021-01-02T16:00:49.610Z] Time:          Sat Jan 02 2021 21:30:49 GMT+0530 (India Standard Time)
-[debug] [2021-01-02T16:00:49.611Z] ----------------------------------------------------------------------
-[debug] [2021-01-02T16:00:49.611Z] 
+[debug] [2021-01-02T17:08:49.972Z] ----------------------------------------------------------------------
+[debug] [2021-01-02T17:08:49.976Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\s\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2021-01-02T17:08:49.976Z] CLI Version:   9.1.0
+[debug] [2021-01-02T17:08:49.976Z] Platform:      win32
+[debug] [2021-01-02T17:08:49.977Z] Node Version:  v12.19.0
+[debug] [2021-01-02T17:08:49.979Z] Time:          Sat Jan 02 2021 22:38:49 GMT+0530 (India Standard Time)
+[debug] [2021-01-02T17:08:49.979Z] ----------------------------------------------------------------------
+[debug] [2021-01-02T17:08:49.979Z] 
 [info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
  
 [info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
 [info] 
 [info] Visit this URL on this device to log in:
-[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=163086560&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=145205754&redirect_uri=http%3A%2F%2Flocalhost%3A9005
 [info] 
 [info] Waiting for authentication...
-[debug] [2021-01-02T16:00:53.944Z] Error: spawn cmd ENOENT
+[debug] [2021-01-02T17:09:02.434Z] Error: spawn cmd ENOENT
     at Process.ChildProcess._handle.onexit (internal/child_process.js:267:19)
     at onErrorNT (internal/child_process.js:469:16)
     at processTicksAndRejections (internal/process/task_queues.js:84:21)
