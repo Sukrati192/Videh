@@ -2,7 +2,7 @@
   "name": "videh",
   "version": "1.0.0",
   "description": "This a website for publishing articles and poems.",
-  "main": "index.html",
+  "main": "index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
