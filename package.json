@@ -4,11 +4,9 @@
   "description": "This a website for publishing articles and poems.",
   "main": "index.html",
   "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Sukrati Agrawal",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0"
