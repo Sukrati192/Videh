@@ -13,8 +13,7 @@
     color: #cf7500;
     background: #1a1c20;
     font-family: 'Noto Sans', sans-serif;
-    text-align: justify;
-    font-size: 20px;
+    text-align: center;
 }
 footer{
     background-color: #1a1c20;
@@ -31,6 +30,7 @@ footer{
 body{
     padding: 50px 0px 0px 0px;
     z-index: 0;
+    font-family: 'Teko', sans-serif;
 }
 .navbar-dark{
     background: #1a1c20 ;
@@ -43,5 +43,10 @@ body{
     color:#f4f4f4;
     padding: 20px 20px 20px 20px;
     font-family: 'Hind', sans-serif;
-    text-align: left;
+}
+.card-heading{
+    background-color: #cf7500;
+}
+.article{
+    
 }

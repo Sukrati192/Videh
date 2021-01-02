@@ -7,14 +7,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-
+    <link rel="icon" href="images/logo.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Mukta:wght@800&family=Noto+Sans:ital,wght@1,700&family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&family=Hind:wght@700&family=Mukta:wght@800&family=Noto+Sans:ital,wght@1,700&family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
     <script src="js/main.js"></script>
 </head>
 
@@ -24,7 +24,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="#">विदेह</a>
+            <a class="navbar-brand mr-auto" href="#"><img src="images/logo.png" height="50" width="50"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> मुख पृष्ठ</a></li>
@@ -38,11 +38,12 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-6"> 
+                <div class="col-12 col-sm-10"> 
                     <h1>विदेह</h1>
-                    <p>संज्ञा से अधिक समझने की कोशिश</p>
+                    <p>एक छोटा सामूहिक प्रयास। लोगों तक अपनी बात और लोगों की बात सुन सकने का एक माध्यम। निज और पर को जानने की चेष्टा भर।</p>
                 </div>
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-2">
+                    <img src="images/logo.png" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -50,23 +51,32 @@
 
     <div class="container">
         <div class="col row-content align-items-center">
-            <div class="col-12">
-                <div class="row col-heading">
-                    <h2 class=" offset-1 col-12 col-sm">जुते खेतों की ओर देखकर</h2>
-                    <button class="btn btn-dark col-sm-1 col-md-1 last" onclick="readmore(1)" id="myBtn1">पढ़ें</button>
+            <div class="col-12 article">
+                <div class="card col-heading">
+                    <div class="card-header row card-heading">
+                        <h2 class="offset-1 col-12 col-sm">जुते खेतों की ओर देखकर <span class="badge badge-pill badge-primary">नवीन</span></h2>
+                        <button class="btn btn-dark col-sm-1 col-md-1 last" onclick="readmore(1)" id="myBtn1">पढ़ें</button>
+                    </div>
                 </div>
+                <div class="card card-body align-items-center">
+                    <div class="media" id="more1">
+                        <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/logo.png">
+                        <div class="media-body blockquote">
+                            <p class="mt-0 mb-0">पता नहीं आप किन बातों पर खुश होते हैं<br>किन दृश्यों को देखकर आपकी आंखें चमक उठती हैं<br>आप कब मुस्कुराते हैं<br>आपका मन गुनगुनाने का कैसे बनता है<br><br>
+                                अगर आप नौकरी में हैं तो<br>जब आपके वेतन में बढ़ोतरी का आदेश आता होगा<br>आपका मन खुशी से जरूर झूम उठता होगा<br><br>
+                                बेरोजगारों की बात अलग है<br>उन्हें सिर्फ चुटकुले पर हंसी आती है<br>वह भी मौसम ठीक रहा तब<br>नहीं तो बढ़िया से बढ़िया चुटकुले को<br>वे निरस्त कर देते हैं<br>और रत्ती भर भी नहीं मुस्कुराते<br>उल्टे गुस्सा हो जाते हैं<br>और मुंह से बचपन में सुनी गालियां निकालने लगते हैं<br><br>
+                                अगर आप किसी पार्टी से ताल्लुकात रखते हैं<br>तब आप सिर्फ अपनी पार्टी की जीत से खुश होते हैं<br><br>
+                                स्त्रियों का उदाहरण लीजिये तो<br>उन्हें आप दुख में भी मुस्कुराते हुए देख सकते हैं<br>उनकी आंखें बच्चों की किलकारी पर भी चमक उठती हैं<br>और जब आसमान में काले बादलों का जमावड़ा लगता है<br>वे तब भी कोई गीत याद कर उसे गुनगुनाने लगती हैं<br><br>
+                                बच्चे तो बच्चे होते हैं<br>उनके सामने कोई चिड़िया फुर्र से उड़ती है<br>वे तब भी खुश हो जाते हैं<br><br>
+                                लेकिन जुते खेतों की ओर देखकर कौन मुस्कुराता है<br>बीज को अंकुराते <br>और उनमें पत्तियां निकलते देखकर किसकी बांछें खिल उठती हैं
+                            </p>
+                        </div>  
+                    </div>
+                </div> 
+                <div class="card-footer">
+                    <div class="text-light">~मिथिलेश कुमार राय</div>
+                </div> 
             </div>
-            <div class="col-11 col-sm-11 col-md-11 offset-sm-1 align-items-center">
-            <p id="more1"><br>पता नहीं आप किन बातों पर खुश होते हैं<br>किन दृश्यों को देखकर आपकी आंखें चमक उठती हैं<br>आप कब मुस्कुराते हैं<br>आपका मन गुनगुनाने का कैसे बनता है<br><br>
-                अगर आप नौकरी में हैं तो<br>जब आपके वेतन में बढ़ोतरी का आदेश आता होगा<br>आपका मन खुशी से जरूर झूम उठता होगा<br><br>
-                बेरोजगारों की बात अलग है<br>उन्हें सिर्फ चुटकुले पर हंसी आती है<br>वह भी मौसम ठीक रहा तब<br>नहीं तो बढ़िया से बढ़िया चुटकुले को<br>वे निरस्त कर देते हैं<br>और रत्ती भर भी नहीं मुस्कुराते<br>उल्टे गुस्सा हो जाते हैं<br>और मुंह से बचपन में सुनी गालियां निकालने लगते हैं<br><br>
-                अगर आप किसी पार्टी से ताल्लुकात रखते हैं<br>तब आप सिर्फ अपनी पार्टी की जीत से खुश होते हैं<br><br>
-                स्त्रियों का उदाहरण लीजिये तो<br>उन्हें आप दुख में भी मुस्कुराते हुए देख सकते हैं<br>उनकी आंखें बच्चों की किलकारी पर भी चमक उठती हैं<br>और जब आसमान में काले बादलों का जमावड़ा लगता है<br>वे तब भी कोई गीत याद कर उसे गुनगुनाने लगती हैं<br><br>
-                बच्चे तो बच्चे होते हैं<br>उनके सामने कोई चिड़िया फुर्र से उड़ती है<br>वे तब भी खुश हो जाते हैं<br><br>
-                लेकिन जुते खेतों की ओर देखकर कौन मुस्कुराता है<br>बीज को अंकुराते <br>और उनमें पत्तियां निकलते देखकर किसकी बांछें खिल उठती हैं<br><br>
-                - मिथिलेश कुमार राय<br>
-            </p>
-            </div>  
         </div>
         <div class="col row-content">
             <h2 class="col-heading" onclick="readmore(2)">इस बात की गवाही चिड़िया देंगी</h2>
@@ -137,6 +147,15 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.2.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.2.1/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
 </body>
 
 </html>
